@@ -1,0 +1,47 @@
+body {
+    height: 100vh;
+    background-color: #1b1b1f;
+    cursor: none;
+}
+
+.cursordot {
+    width: 5px;
+    height: 5px;
+    background-color: #B4DE21;
+}
+
+.cursoroutline {
+    width: 30px;
+    height: 30px;
+    border: 1px solid hsla(0, 0%, 100%, 0.5);
+    background-color: hsla(0, 0%, 100%, 0.5);
+}
+
+.cursordot,
+.cursoroutline {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transfrom: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 1;
+    pointer-events: none;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 50, 0.8), rgba(0, 0, 50, 0.8), url("D:\\ANANYA BTECH\\website design\\images\\1.jpg"));
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+}
